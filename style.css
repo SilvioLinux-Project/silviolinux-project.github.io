@@ -1,0 +1,51 @@
+/* Blue Dark theme — estilo simples e leve */
+:root{
+  --bg:#0b1220;
+  --card:#0f1a2b;
+  --accent:#2b7cff;
+  --muted:#9fb3d9;
+  --text:#e6eef8;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,system-ui,Segoe UI,Roboto,Arial;
+  background:linear-gradient(180deg,var(--bg),#071021);
+  color:var(--text);
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+.site-header{
+  padding:18px 20px;
+  background:linear-gradient(90deg, rgba(11,18,32,0.6), rgba(15,26,43,0.85));
+  border-bottom:1px solid rgba(255,255,255,0.03);
+}
+.site-header h1{margin:0;font-size:22px}
+.site-header .tagline{margin:4px 0 8px;font-size:13px;color:var(--muted)}
+nav a{
+  color:var(--muted);
+  text-decoration:none;
+  margin-right:14px;
+  font-size:14px;
+}
+.container{
+  max-width:980px;
+  margin:28px auto;
+  padding:18px;
+  background:linear-gradient(180deg, rgba(15,26,43,0.3), rgba(8,14,24,0.2));
+  border-radius:8px;
+  box-shadow: 0 6px 18px rgba(2,6,12,0.6);
+}
+h2{color:var(--accent)}
+code{
+  background:rgba(255,255,255,0.03);
+  padding:2px 6px;
+  border-radius:4px;
+  font-family:monospace;
+  color:var(--text);
+  font-size:0.95em;
+}
+ul{margin:8px 0 16px 18px}
+.footer-note{margin-top:18px;padding-top:8px;border-top:1px dashed rgba(255,255,255,0.03)}
+footer{color:var(--muted);text-align:center;padding:18px 8px}
+a{color:var(--accent)}

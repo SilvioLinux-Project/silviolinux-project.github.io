@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SilvioLinux — Página Inicial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>SilvioLinux</h1>
+    <p class="tagline">Distribuição custom — várias bases: LFS, Arch, Gentoo, Debian, BusyBox</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="editions.html">Edições</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="wiki.html">Wiki</a>
+      <a href="create_usb_bootable.html">Gravar USB/DVD</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Sobre o SilvioLinux</h2>
+      <p>SilvioLinux é uma coleção de edições customizadas — LFS (Linux From Scratch), Arch, Gentoo, Debian e BusyBox — pensada para máquinas com recursos limitados ou para quem gosta de configurar tudo manualmente.</p>
+    </section>
+
+    <section>
+      <h2>Comandos de atualização</h2>
+      <ul>
+        <li>LFS (scratchpkg): <code>sudo scratchpkg sync Base</code> / <code>sudo scratchpkg upgrade Base</code></li>
+        <li>Gentoo: <code>sudo emerge-websync Base</code></li>
+        <li>Debian: <code>sudo apt-get update</code> / <code>sudo apt-get upgrade</code></li>
+        <li>Arch: <code>sudo pacman -Sy</code> / <code>sudo pacman -Syu</code></li>
+        <li>BusyBox (silviobuilds): <code>sudo silviobuilds --sync Base</code> / <code>sudo silviobuilds --upgrade Base</code></li>
+      </ul>
+    </section>
+
+    <section class="footer-note">
+      <p>Website leve em HTML/CSS puro. Navegue pelas edições para ver requisitos mínimos e instaladores.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© SilvioLinux — Documentação e imagens de exemplo. Tema: Blue Dark.</p>
+  </footer>
+</body>
+</html>
